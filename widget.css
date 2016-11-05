@@ -1,10 +1,19 @@
 /* CSS for ChiliPeppr Widget */
 
-#com-chilipeppr-widget-template {
-   
+#com-chilipeppr-widget-rpmsensor .panel-heading {
+   padding:0;
 }
 
-#com-chilipeppr-widget-template .nav-tabs>li>a {
-    padding: 2px 6px;
+#com-chilipeppr-widget-rpmsensor .rpm-label {
+    padding: 6px 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white;
 }
 
+#com-chilipeppr-widget-rpmsensor .rpm-val {
+    padding: 6px 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size:16px;
+}
